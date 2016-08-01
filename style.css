@@ -125,6 +125,21 @@ body {
 .navbar-default{
     background-color: transparent;
     border-color:transparent;
+    .birdseye-header {
+    position: fixed;
+    z-index: 12;
+    overflow-y: hidden;
+    width: 100%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
 }
 .site-header {
     color:#FFFFFF; ;
@@ -157,7 +172,7 @@ body {
 #main-menu{
      float: right;
 position: relative;
-  left: -33%; /* or right 50% */
+  left: 50%; /* or right 50% */
   text-align: left;
     font-size: 20px;
     color: gray;
@@ -178,10 +193,14 @@ a:focus, a:hover {
 }
 
 div.jumbotron{
-background-image:url("http://www.skyhdwallpaper.com/wp-content/uploads/2014/10/Cheerful-Just-Married-Couple.jpg");
+background-image:url("http://localhost:8888/jessie-zan/wp-content/uploads/2016/08/Zanjessie.jpg");
 background-repeat:no-repeat;
  background-size:cover;
  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .jumbotron .h1, .jumbotron h1 {
     color: black;
@@ -207,6 +226,14 @@ margin-left: 10px;
 margin-right: 10px;*/
 }
 
+.jumbotron {
+    height: 100vh;
+}
+.jumbotron .container {
+    max-width: 100%;
+    padding-top: 11cm;
+    padding-bottom: 9cm;
+}
 
 
 

@@ -37,8 +37,8 @@
 						</button>
 	
 						<!-- Your site title as branding in the menu -->
-						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					</div>
+						<!--<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					</div> -->
 
 					<!-- The WordPress Menu goes here -->
 					<?php wp_nav_menu(
@@ -62,10 +62,11 @@
 </nav><!-- .site-navigation -->
 
 <div class="jumbotron">
+	<div class="container">
   <h1>Jessie & Zan</h1>
   <h1>July 1st,2017 </h1>
 </div>
-
+</div>
 <body class="bgMain"<?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
 
