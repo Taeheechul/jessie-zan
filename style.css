@@ -1,0 +1,277 @@
+/*
+ Theme Name:   Jessie & Zan's Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
+
+/*Wed Customaizations*/
+
+/*.dark-primary-color    { background: #C5CAE9; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #D1C4E9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #E040FB; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }*/
+
+/*
+Header Customizations
+*/
+
+
+/*
+submit button
+*/
+.wpcf7-submit{
+	color: #F5F5F5;
+    background-color: #7C4DFF;
+
+}
+body{
+        background-color: red;
+        padding-top: 70px;
+}
+.collapse{
+    /*background: url(images/logo-menu-overlay-background.png);*/
+}
+.site-description{
+	text-align: center;
+	border-color:none;
+    background-color: #9E9E9E;
+}
+.navbar-default{
+	background-color:#C5CAE9 ;
+    /*color:white;*/
+    border-color: #C5CAE9;
+}
+a:hover {
+ 	background-color: none;
+
+ }
+ .site-header{
+    color:orange;
+ }
+
+.page-title{
+	color: #212121;
+	font-size: 90px;
+}
+
+header#masthead.site-header div.row{
+    background-color:transparent; 
+}
+
+
+
+
+/* header text*/
+body {
+    background-color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+}
+
+.a{
+	color: #C5CAE9;
+
+}
+/*.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #E040FB;
+    background-color: transparent;
+}*/
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c3b0c3;
+    /*background-color: transparent;*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:  #d69de4;
+    background:none;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color:#831ddb;
+    background-color: transparent;
+}
+/*.collapse {
+        background: url(images/logo-menu-overlay-background.png) ;
+}*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #C5CAE9;
+}
+.navbar-default .navbar-toggle {
+     border-color: #C5CAE9; 
+}
+
+.style {
+    background-color: #3f51b5;
+}
+
+.site-description {
+    text-align: center;
+    border-color:#3f51b5 ;
+    background-color: #3f51b5;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color:transparent;
+}
+.site-header {
+    color:#FFFFFF; ;
+}
+a {
+    color:#212121;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #c5cae9;
+    text-decoration: none;
+}
+/* body text*/
+body {
+   font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color:#727272;
+    padding-top: 50px;
+    /*background-color: #fad1f0;*/
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color:white;
+}
+
+
+#main-menu{
+     float: right;
+position: relative;
+  left: -33%; /* or right 50% */
+  text-align: left;
+    font-size: 20px;
+    color: gray;
+
+}
+.navbar a{
+color:gray;
+}
+
+
+.site-header-inner.col-sm-12{
+    background-color:#3F51B5;
+}
+
+a:focus, a:hover {
+    color: #b77498 ;
+    text-decoration: none;
+}
+
+div.jumbotron{
+background-image:url("http://www.skyhdwallpaper.com/wp-content/uploads/2014/10/Cheerful-Just-Married-Couple.jpg");
+background-repeat:no-repeat;
+ background-size:cover;
+ text-align: center;
+}
+.jumbotron .h1, .jumbotron h1 {
+    color: black;
+}
+
+.bgMain {
+    background-color:#303F9F;
+}
+#content{
+    padding:0px;
+    text-align: center;
+}
+div#navbar-collapse.collapse.navbar-collapse{
+    padding:0px;
+    /*background-color:#C5CAE9;*/
+    background-color: transparent !important 
+}
+ 
+ .slides {
+float: center;
+/*display: inline;
+margin-left: 10px;
+margin-right: 10px;*/
+}
+
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #212121;
+    background: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: gray;
+}
+button, input, select, textarea {
+    
+    color: black;
+}
+
+/*
+navbar
+*/
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:#c72fe1;
+    background: transparent;
+}
+
+.site-title a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+    text-decoration:none;
+}  
+.page-title{
+    text-decoration: none;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+/* footer*/
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: ;
+}
+
+
+/*test code*/
+.jumbotron {
+    position: relative;
+    background: none;
+    padding: inherit;
+    margin-bottom: 0px;
+    min-height: 500px;
+    }
+    .jumbotron:after {
+    content:"";
+    background: url("img/2gratermay20121.jpg");
+    background-repeat:no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    }
