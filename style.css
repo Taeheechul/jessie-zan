@@ -91,11 +91,11 @@ body {
 }*/
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #c3b0c3;
+    color: gray;
     /*background-color: transparent;*/
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color:  #d69de4;
+    color:  #fffeff;
     background:none;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
@@ -106,7 +106,7 @@ body {
         background: url(images/logo-menu-overlay-background.png) ;
 }*/
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #C5CAE9;
+    background-color: #303F9F;
 }
 .navbar-default .navbar-toggle {
      border-color: #C5CAE9; 
@@ -123,23 +123,15 @@ body {
 }
 
 .navbar-default{
-    background-color: transparent;
-    border-color:transparent;
-    .birdseye-header {
+    background-color:#303F9F;
+    border-color:#303F9F;
+    opacity: 0.8;
     position: fixed;
     z-index: 12;
     overflow-y: hidden;
     width: 100%;
     padding: 10px 30px;
-    box-sizing: border-box;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: all 250ms ease;
-    -moz-transition: all 250ms ease;
-    -ms-transition: all 250ms ease;
-    -o-transition: all 250ms ease;
-    transition: all 250ms ease;
-}
+    
 }
 .site-header {
     color:#FFFFFF; ;
@@ -162,7 +154,7 @@ body {
     padding-top: 50px;
     /*background-color: #fad1f0;*/
 }
-.row {
+.row{
     margin-right: -15px;
     margin-left: -15px;
     background-color:white;
@@ -172,14 +164,14 @@ body {
 #main-menu{
      float: right;
 position: relative;
-  left: 50%; /* or right 50% */
+  left: 91%; /* or right 50% */
   text-align: left;
     font-size: 20px;
-    color: gray;
+    color:white;
 
 }
 .navbar a{
-color:gray;
+color:white;
 }
 
 
@@ -203,12 +195,13 @@ background-repeat:no-repeat;
   background-attachment: fixed;
 }
 .jumbotron .h1, .jumbotron h1 {
-    color: black;
+    color: #eeeeee;
 }
 
 .bgMain {
     background-color:#303F9F;
 }
+
 #content{
     padding:0px;
     text-align: center;
@@ -219,13 +212,6 @@ div#navbar-collapse.collapse.navbar-collapse{
     background-color: transparent !important 
 }
  
- .slides {
-float: center;
-/*display: inline;
-margin-left: 10px;
-margin-right: 10px;*/
-}
-
 .jumbotron {
     height: 100vh;
 }
@@ -233,16 +219,15 @@ margin-right: 10px;*/
     max-width: 100%;
     padding-top: 11cm;
     padding-bottom: 9cm;
+    padding-right: 3cm;
 }
 
-
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #212121;
+    color: #848282;
     background: none;
 }
 .navbar-default .navbar-nav>li>a {
-    color: gray;
+    color: white;
 }
 button, input, select, textarea {
     
@@ -253,7 +238,7 @@ button, input, select, textarea {
 navbar
 */
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color:#c72fe1;
+    color:#c5cae9;
     background: transparent;
 }
 

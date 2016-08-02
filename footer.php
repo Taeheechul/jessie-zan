@@ -20,8 +20,10 @@
 
 				<div class="site-info">
 					<h1> Questions?</h1>
-					<p> contact Us!</p>
-					<a href="Jewelclarkehenry@gmail.com">zan</a>
+					<p> Contact Us!</p>
+					<p>Jessie: jlgeorge86@gmail.com</p>
+					<p>Zan: zandonovan@gmail.com</p>
+
 				</div><!-- close .site-info -->
 
 			</div>

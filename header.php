@@ -7,6 +7,7 @@
  * @package _tk
  */
 ?><!DOCTYPE html>
+
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -64,7 +65,7 @@
 <div class="jumbotron">
 	<div class="container">
   <h1>Jessie & Zan</h1>
-  <h1>July 1st,2017 </h1>
+  <h1>July 1st, 2017 </h1>
 </div>
 </div>
 <body class="bgMain"<?php body_class(); ?>>
