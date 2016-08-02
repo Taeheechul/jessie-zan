@@ -11,8 +11,8 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-@import url(https://fonts.googleapis.com/css?family=Cabin);
-@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT);
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans';
+@import 'https://fonts.googleapis.com/css?family=Cabin';
 
 /*Wed Customaizations*/
 
@@ -64,7 +64,7 @@ a:hover {
  }
 
 .page-title{
-	color: #212121;
+	color: #ffffff;
 	font-size: 90px;
 }
 
@@ -76,9 +76,9 @@ header#masthead.site-header div.row{
 
 
 /* header text*/
-body {
+h1.page-title {
     background-color: #ffffff;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 .a{
@@ -123,8 +123,8 @@ body {
 }
 
 .navbar-default{
-    background-color:#303F9F;
-    border-color:#303F9F;
+    background-color:#000f4d;
+    border-color:#000f4d;
     opacity: 0.8;
     position: fixed;
     z-index: 12;
@@ -147,7 +147,7 @@ a {
 }
 /* body text*/
 body {
-   font-family: 'Old Standard TT', serif;
+   font-family: 'Cabin', sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color:#727272;
@@ -187,19 +187,19 @@ a:focus, a:hover {
 div.jumbotron{
 background-image:url("http://localhost:8888/jessie-zan/wp-content/uploads/2016/08/Zanjessie.jpg");
 background-repeat:no-repeat;
- background-size:cover;
  text-align: center;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-top: -50px;
 }
 .jumbotron .h1, .jumbotron h1 {
     color: #eeeeee;
 }
 
 .bgMain {
-    background-color:#303F9F;
+    background-color:#000b4f;
 }
 
 #content{
@@ -234,6 +234,18 @@ button, input, select, textarea {
     color: black;
 }
 
+h1, .h1 {
+    font-size: 40px;
+    color:blue;
+
+}
+.site-info{
+text-align: center;
+
+}
+h1.site-info{
+    text-align: center;
+}
 /*
 navbar
 */
